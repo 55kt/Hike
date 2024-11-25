@@ -14,6 +14,7 @@
 		4B9CA5842CF4E7B2000556CB /* HikeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9CA57E2CF4E7B2000556CB /* HikeApp.swift */; };
 		4B9CA5872CF4E7E8000556CB /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9CA5862CF4E7E8000556CB /* CustomBackgroundView.swift */; };
 		4B9CA58A2CF4E940000556CB /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9CA5892CF4E940000556CB /* ColorExtension.swift */; };
+		4B9CA58C2CF4F3A1000556CB /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9CA58B2CF4F3A1000556CB /* CustomButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4B9CA57E2CF4E7B2000556CB /* HikeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeApp.swift; sourceTree = "<group>"; };
 		4B9CA5862CF4E7E8000556CB /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
 		4B9CA5892CF4E940000556CB /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		4B9CA58B2CF4F3A1000556CB /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 		4BB6922F2CF4E1D000F9FBE1 /* Hike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -72,6 +74,7 @@
 			children = (
 				4B9CA57C2CF4E7B2000556CB /* CardView.swift */,
 				4B9CA5862CF4E7E8000556CB /* CustomBackgroundView.swift */,
+				4B9CA58B2CF4F3A1000556CB /* CustomButtonView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 				4B9CA5822CF4E7B2000556CB /* CardView.swift in Sources */,
 				4B9CA5832CF4E7B2000556CB /* ContentView.swift in Sources */,
 				4B9CA5842CF4E7B2000556CB /* HikeApp.swift in Sources */,
+				4B9CA58C2CF4F3A1000556CB /* CustomButtonView.swift in Sources */,
 				4B9CA5872CF4E7E8000556CB /* CustomBackgroundView.swift in Sources */,
 				4B9CA58A2CF4E940000556CB /* ColorExtension.swift in Sources */,
 			);
