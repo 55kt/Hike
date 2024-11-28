@@ -57,6 +57,28 @@ struct SettingsView: View {
             
             
             // MARK: - SECTION: Icons
+            Section(
+                header: Text("About THE APP"),
+                footer: HStack {
+                    Spacer()
+                    Text("Copyright © All right reserved")
+                    Spacer()
+                }
+                    .padding(.vertical, 8)
+            ) {
+                // 1. Basic label content
+//                LabeledContent("Application", value: "Hike")
+                
+                // 2. Advanced labeled content
+                CustomListRowView(rowLabel: "Application", rowIcon: "apps.iphone", rowContent: "HIKE", rowTintColor: .blue)
+                CustomListRowView(rowLabel: "Compatibility", rowIcon: "info.circle", rowContent: "IOS, iPadOS", rowTintColor: .red)
+                CustomListRowView(rowLabel: "Technology", rowIcon: "swift", rowContent: "Swift", rowTintColor: .orange)
+                CustomListRowView(rowLabel: "Version", rowIcon: "gear", rowContent: "1.0", rowTintColor: .purple)
+                CustomListRowView(rowLabel: "Developer", rowIcon: "ellipsis.curlybraces", rowContent: "Bush Sina", rowTintColor: .mint)
+                CustomListRowView(rowLabel: "Designer", rowIcon: "paintpalette", rowContent: "Jimmy Cardamon", rowTintColor: .pink)
+                CustomListRowView(rowLabel: "Website", rowIcon: "globe", rowContent: nil, rowTintColor: .indigo, rowLinkLabel: "Bush Sina", rowLinkDestination: "https://bushsina.com") //Cus
+                
+            } //: SECTION
             
             // MARK: - SECTION: About
         } //: LIST
